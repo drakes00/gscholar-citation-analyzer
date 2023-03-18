@@ -94,6 +94,3 @@ if __name__ == "__main__":
     main()
     import sys
     sys.exit()
-
-with open("data.json", "w", encoding="utf-8") as handle:
-    json.dump(PUBLICATIONS_PER_ARTICLE_PER_YEAR, handle, ensure_ascii=False, indent=4)
